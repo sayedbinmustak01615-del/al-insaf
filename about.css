@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: solaiman;
+    src: url('../../../fonts/SolaimanLipi_20-04-07.woff') format('woff');
+}
+@font-face {
+    font-family: potro;
+    src: url('../../../fonts/PotroSansBangla-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: roboto;
+    src: url('../../../fonts/Roboto-Bold.woff') format('woff');
+}
+.hade{
+    text-align: center;
+    background-color: #c0f9e3;
+    color: #000708;
+    overflow: hidden;
+}
+.hade .logo-img{
+    width:18%;
+    position: absolute;
+    margin-right: 5px;
+    left: 19px;
+    top: 25px;
+}
+.logo-img img{
+    width: 80px;
+    float:left;
+}
+.logo-img h1{
+    font-size: 21px;
+    font-family: solaiman;
+    color: chocolate;
+    padding-top: 22px;
+    padding-right: 7px;
+    overflow: hidden;
+}
+.hade .hading-one{
+    overflow: hidden;
+    color: rgb(48, 82, 83);
+    margin:30px 5px 0 5px;
+}
+.hading-one h3{
+    font-size: 23px; 
+    font-family: solaiman;  
+    margin: auto;
+    padding-top: 10px;
+}
+.hading-one .titl{
+    font-family: potro;
+    font-size: 30px;
+    margin:auto;
+    margin: 12px 0;
+}
+.main-menu{
+    background-color: rgb(236, 134, 2);
+    font-family:solaiman;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.main-menu ul li{
+    float: left;
+    font-size: 20px;
+}
+.main-menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    position:relative;
+    left:330px
+}
+.main-menu ul li a:hover{
+    background-color: rgb(16, 72, 74);
+}
+.main-content{
+    background-color: aquamarine;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.para-one{
+    font-family: solaiman;
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+.para-two{
+    font-family: solaiman;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.niam .niam-nam{
+    width: 21%;
+    position: relative;
+    left: 40%;
+}
+.niam .niam-nam h3{
+    font-family: potro;
+    text-align: center;
+    font-size: 27px;
+    border-bottom: 5px double darkblue;
+}
+.niam ul{
+    font-size: 19px;
+    font-family: solaiman;
+    list-style-type: square;
+    color: rgba(0, 40, 92, 0.83);
+}
+.fotter{
+    height: 200px;
+    background-color: #222f3e;
+    overflow: hidden;
+    position: relative;
+}
+.home a{
+    background-color: #5f27cd;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    clear: both;
+    display: inline-block;
+    text-decoration: none;
+    width: 56px;
+    text-align: center;
+    position: fixed;
+    right: 39px;
+    bottom: 161px;
+}
+.link a{
+    font-size: 17px;
+    font-family: roboto;
+    clear: both;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 580px;
+    top: 35px;
+    padding: 8px;
+    color: rgb(253, 253, 253);
+}
+.facebook{
+    position: absolute;
+    left: 557px;
+    bottom: 129px;
+}
+.Whatsapp{
+    position:absolute;
+    left: 557px;
+    bottom: 94px;
+}
+.Telegram{
+    position:absolute;
+    left: 557px;
+    bottom: 59px;
+}
+.ami{
+    width: 190px;
+    color: #c8d6e5;
+    text-align: center;
+    position: relative;
+    left: 1040px;
+    bottom: 65px;
+    overflow: hidden;
+}
+.ami h6{
+    background-color: #10ac84;
+    color: rgb(252, 253, 254);
+    position: relative;
+    font-size: 12px;
+    bottom: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.ami h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1abc9c;
+    padding-bottom: 3px;
+    position: relative;
+    bottom: -38px;
+    border-bottom: 2.50px solid #7f8c8d;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    position: relative;
+    bottom: -22px;
+}   

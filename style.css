@@ -1,0 +1,167 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: solaiman;
+    src: url('../../../fonts/SolaimanLipi_20-04-07.woff') format('woff');
+}
+@font-face {
+    font-family: potro;
+    src: url('../../../fonts/PotroSansBangla-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: roboto;
+    src: url('../../../fonts/Roboto-Bold.woff') format('woff');
+}
+
+header{
+    background-color: rgb(200, 223, 250);
+    overflow: hidden;
+    padding: 10px 5px 0 5px;
+}
+.logo{
+    width: 18%;
+    padding: 5px 7px 8px 0;   
+    float: left;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100px;
+}
+.nam{
+    text-align: center;
+    overflow: hidden;
+    width: 63%;
+    box-sizing: border-box;
+    float: left;
+}
+.nam h1{
+    font-size: 32px;
+    font-family: solaiman;
+    margin: 12px 0 7px 0;
+}
+.nam h3{
+    font-size: 19px;
+    font-family: potro;
+}
+aside{
+    width: 18.5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+aside h2{
+    text-align: center;
+    border: 5px ridge rebeccapurple;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+}
+.main-menu{
+    background-color: rgb(236, 134, 2);
+    font-family: solaiman;
+    font-size: 18px;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    padding: 10px 8px;
+    margin: 0 3px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+
+}
+.main-menu ul li a:hover{
+    background-color: rgb(16, 72, 74);
+}
+
+section{
+    background: url('../../../images/islamic-background-with-beautiful-ornaments-vector.jpg') no-repeat fixed center ;
+    background-size: 100% 100%;
+
+}
+.battom-content{
+	color:rgb(6, 4, 9);
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+#tasmia{
+    font-size: 21px;
+    text-align: center;
+}
+.ayat{
+    text-align: center;
+}
+.para-one{
+    font-family: solaiman;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+#dalil{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pera-two{
+    color: rgb(196, 8, 203);
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+.videos h2{
+    text-align: center;
+    background-color:rgba(112, 255, 10,0.5);
+    padding: 5px;
+}
+.videos{    
+    border:8px dashed rgb(10, 125, 226);
+    padding: 8px;
+    padding: 25px;
+    background-color:rgba(30, 156, 218, 0.2);
+}
+.video-title{
+    font-size: 18px;
+    margin: 0;
+    background-color:rgb(112, 255, 10);
+    width: 12%;
+    padding: 3px 0px 3px 12px;
+    overflow: hidden;
+}
+
+.footer-aria{
+    height: 200px;
+    background-color:#222f3e;
+    position: relative;
+}
+.icon-link{
+    width: 150px;
+    margin: auto;
+    overflow: hidden;
+}
+.icon-link h4 a{
+    color: azure;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.icon-link h4 i{
+    font-size: 20px;
+    color: rgb(44, 195, 255);
+}
